@@ -16,6 +16,7 @@ class Fruit:
     def set_speed(self):
         self.speed = random.randrange(6, 9)
 
+
     def update(self):
         self.posY -= self.speed
         self.speed -= .05
@@ -27,6 +28,7 @@ class Fruit:
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if self.fruit_rect.collidepoint(event.pos):
                     self.isVisible = False
+
 
     def draw(self):
         if self.isVisible:

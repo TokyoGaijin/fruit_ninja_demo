@@ -2,8 +2,7 @@ import pygame
 import colorswatch as cs
 
 class Game_Screen:
-    def __init__(self, surface_name, title = "Untitled Game", sizeX = 640, sizeY = 480, bgColor = cs.cornflower_blue["pygame"]):
-        self.surface_name = surface_name
+    def __init__(self, title = "Untitled Game", sizeX = 640, sizeY = 480, bgColor = cs.cornflower_blue["pygame"]):
         self.title = title
         self.sizeX = sizeX
         self.sizeY = sizeY

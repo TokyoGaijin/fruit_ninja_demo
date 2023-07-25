@@ -53,6 +53,7 @@ def init():
     scoreboard.score = 0
 ```
 Here, we use the `global` keyword to access the `fruit_list`. This is where we fill our basket.
+
 Within the `for` loop, which is set between values 0 and the length of the `fruits` list, we `append` to the `fruit_list` all of the `fruits` by creating objects from `fruit.Fruit.`  We will use all of the fruit in the `fruits` list and fill our basket.
 
 We also set the score to 0.
@@ -137,6 +138,8 @@ Don't be afraid to take a look at the modules' `.py` files and see their code fo
 Some Ideas:
 - Add a 'game over' condition for loss or win
 - Add sound
+
+If you are unsure about how to do any of those two things, come join us at IT KiDS where you will learn how to do that, and much, much more!!
 
 ## If you had fun making this game, join us at IT KiDS!
 You will learn how to make games like this, and much more! If Python programming interests you, but you don't know what's happened while you typed this out, that's perfectly okay! IT KiDS has an Introduction to Python course that's part of the Pygame curriculum! Please don't hesitate to ask about it!
